@@ -31,3 +31,4 @@ coll.updateOne(document, { $set: update }, null, (err, result) => {
     callback(result);
 });
 };
+
